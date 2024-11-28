@@ -1,0 +1,137 @@
+/* Container for all team tables */
+.container {
+    display: flex;
+    flex-direction: column; /* Arrange items in a single column */
+    gap: 20px; /* Space between each table */
+    padding: 20px;
+  }
+  
+  .bidding-form{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Table takes full width */
+    max-width: 800px; /* Optional: Set a max width for better readability */
+    margin: 0 auto; /* Center the table */
+    text-align: center;
+  }
+
+  .bidding-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+
+  
+  /* Each team's table container */
+  .team-table {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Table takes full width */
+    max-width: 800px; /* Optional: Set a max width for better readability */
+    margin: 0 auto; /* Center the table */
+    text-align: center;
+  }
+  
+  /* Team name as heading */
+  .team-table h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+  }
+
+  
+  th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  td {
+    text-align: left;
+  }
+
+  
+  /* Alternating row colors
+  tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+  } */
+  
+  /* Hover effect */
+  tbody tr:hover {
+    background-color: #e6f7ff;
+  }
+  
+ 
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .team-table {
+      width: 100%; /* Ensure tables take full width on small screens */
+    }
+  }
+  
+
+.status-placed {
+    background-color: #e1aca9;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 4px;
+  }
+
+ 
